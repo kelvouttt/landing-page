@@ -17,16 +17,17 @@ ul {
     display: flex;
     list-style: none;
     gap: 20px;
-    padding-left: 200px;
+    /* padding-left: 200px;  */
 }
 
 .second {
     display: flex;
     /* align-items: center; */
     border: 2px rebeccapurple;
-    justify-content: space-around;
+    justify-content: center;
     background-color: #1F2937;
-    padding: 36px;
+    padding: 65px;
+    gap: 62px;
 }
 
 .main-text {
@@ -44,11 +45,13 @@ ul {
 }
 
 img {
-    width: 300px;
+    width: 600px;
     height: 300px;
+    border-radius: 25px;
+    border-style: outset;
 }
 
-.sign-up {
+button {
     padding: 3px 20px;
     background-color: #3882F6;
     border-radius: 5px;
@@ -68,10 +71,10 @@ img {
 
 .base {
     display: flex;
-    padding: 50px;
+    padding: 60px;
     justify-content: center;
     align-items: center ;
-    gap: 30px;
+    gap: 40px;
 }
 
 .second-header {
@@ -93,12 +96,61 @@ img {
     justify-content: center;
     align-items: center;
     padding: 42px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .text2 {
     font-size: 36px;
     font-style: italic;
+    font-weight: lighter;
     color: #1F2937;
-    max-width: 50%;
+    /* max-width: 50%; */
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid black; */
+    width: 60%;
+}
+.quote {
+    align-self: flex-end;
+    color: #1F2937;
+    font-weight: 700;
+}
+
+.fifth {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 90px;
+    /* border: 2px solid black; */
+}
+
+.fifth-wrapper {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center ;
+    padding: 50px 80px;
+    border-radius: 10px;
+    gap: 45px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bolder;
+}
+
+.second-button {
+    border: 2px solid white;
+    color: #E5E7EB;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
 }
